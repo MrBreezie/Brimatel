@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BrimaDev Business Card</title>
+	<link rel="stylesheet" type="text/css" href="card.css">
+</head>
+<body>
+	<div class="genborder">
+		<div class="top">
+			<img class="image" src="logo/thrillcamplogo.png">
+			<p class="title">Thrill Camp Groups of Company<p/>
+		</div>
+		<p class="headline"><em>Words come alive!</em></p>
+		<hr>
+		<h5 class="address">Address</h5>
+		<ul>
+			<li>40, Dipo Abe Street, Ojodu Berger, Lagos</li>	
+		</ul>
+		<h2 class="name">Alabi Abeeb Opeyemi</h2>
+	</div>
+</body>
+</html>
+
+.............................................................................
+
+.genborder {
+	border: 5px solid blue;
+	border-top-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	width: 500px;
+	height: 270px;
+	background-color: black;
+}
+
+.top {
+	display: flex;
+}
+
+.headline {
+	text-align: center;
+	color: white;
+}
+
+.address {
+	color: white;
+	margin-left: 10px;
+}
+
+ul {
+	color: white;
+}
+
+.image {
+	text-align: center;
+}
+
+.hr {
+	color: red;
+}
+.name {
+	text-align: center;
+	background-color: green;
+	border-radius: 10px;
+}
+
+.title {
+	text-align: center;
+	padding: 10px;
+	font-size: 25px;
+	font-weight: bold;
+	background-color: red;#color: white;
+
+}
